@@ -3,9 +3,9 @@
 for x in range(0, 5):
   print(x, "Practice makes perfect")
 
-x = 0
-while x < 5:
-  print(x, "Practice makes perfect")
-  x = x + 1
+# x = 0
+# while x < 5:
+#   print(x, "Practice makes perfect")
+#   x = x + 1
 
 
