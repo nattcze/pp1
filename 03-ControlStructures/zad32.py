@@ -6,3 +6,10 @@
 #   5 12 19 26 33 40 47
 #   6 13 20 27 34 41 48
 #   7 14 21 28 35 42 49
+
+
+for i in range(1, 8):
+  for j in range(i, 50, 7):
+    print(j, end=" ")
+
+  print()

@@ -6,3 +6,31 @@
 # Enter the PIN code: 7860
 # Incorrect...
 # Sorry, your payment card has been blocked.
+
+
+pin=1234
+first_try = int(input("Enter the PIN code: "))
+if first_try == pin:
+    print("Correct <3")
+else:
+    print("Incorrect...")
+    second_try= int(input("Try again: "))
+    if second_try == pin :
+        print("Correct <3")
+    else:
+        print("Incorrect...")
+        third_try = int(input("Try again: "))
+        if third_try == pin:
+            print("Correct")
+        else:
+            print("Acces denied D; contact your bank")
+
+
+
+
+
+
+
+
+
+
