@@ -8,22 +8,36 @@
 # Sorry, your payment card has been blocked.
 
 
-pin=1234
-first_try = int(input("Enter the PIN code: "))
-if first_try == pin:
-    print("Correct <3")
-else:
-    print("Incorrect...")
-    second_try= int(input("Try again: "))
-    if second_try == pin :
-        print("Correct <3")
-    else:
-        print("Incorrect...")
-        third_try = int(input("Try again: "))
-        if third_try == pin:
-            print("Correct")
-        else:
-            print("Acces denied D; contact your bank")
+# pin= "0805"
+# first_try = int(input("Enter the PIN code: "))
+# if first_try == pin:
+#     print("Correct <3")
+# else:
+#     print("Incorrect...")
+#     second_try= int(input("Try again: "))
+#     if second_try == pin :
+#         print("Correct <3")
+#     else:
+#         print("Incorrect...")
+#         third_try = int(input("Try again: "))
+#         if third_try == pin:
+#             print("Correct")
+#         else:
+#             print("Acces denied D; contact your bank")
+
+
+pin = "0805"
+
+for i in range(0,3):
+    user_input = int(input("Enter the PIN code: "))
+
+    if user_input == pin:
+        print("Correct")
+        exit()
+
+    print("Incorrect")
+
+print("Sorry, access denied D:")
 
 
 

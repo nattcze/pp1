@@ -6,17 +6,17 @@
 # *             *
 # ***************
 
-
+# nie działa
 
 a = int(input("Enter first dimension: "))
 b = int(input("Enter second dimension: "))
-for i in range(1,a+1):
+for i in range(1, a+1):
     print("*", end = " ")
 
-for i in range(1,(b-1)):
-    print( ""*(b-2))
+for i in range(1, (b-1)):
+    print( "" * (b-2))
 
-for i in range(1,a+1):
+for i in range(1, a+1):
     print("*", end = " ")
 
 

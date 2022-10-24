@@ -36,14 +36,7 @@ while(i >= 0):
     print()
     i = i - 1
 
-
-
-
-
-
-
-
-# połóka 
+# połówka 
 # n = int(input("Enter the number of rows: "))
 # for i in range(n):
 #     for j in range(i,n):
