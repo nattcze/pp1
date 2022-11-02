@@ -8,18 +8,33 @@
 
 # nie działa
 
-a = int(input("Enter first dimension: "))
-b = int(input("Enter second dimension: "))
-for i in range(1, a+1):
-    print("*", end = " ")
+# a = int(input("Enter first dimension: "))
+# b = int(input("Enter second dimension: "))
+# for i in range(1, a+1):
+#     print("*", end = " ")
 
-for i in range(1, (b-1)):
-    print( "" * (b-2))
+# for i in range(1, (b-1)):
+#     print( "" * (b-2))
 
-for i in range(1, a+1):
-    print("*", end = " ")
+# for i in range(1, a+1):
+#     print("*", end = " ")
 
 
+a = int(input("a = "))
+b = int(input("b = "))
 
+for i in range(0, a):
+  if i == 0 or i == a - 1:
+    printChar = "*"
+  else:
+    printChar = " "
+
+  for j in range(0, b):
+    if j == 0 or j == b - 1:
+      print("*", end="")
+    else:
+      print(printChar, end="")
+
+  print()
 
 
