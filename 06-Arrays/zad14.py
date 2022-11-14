@@ -1,0 +1,1 @@
+# 14.	An array contains values: [[True,False],[True,True],[False,False]]. Create a program that changes values of an array to the opposite. Use a loop statement.

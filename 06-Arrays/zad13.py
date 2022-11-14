@@ -1,0 +1,1 @@
+# 13.	An array contains values: [[3,9,2],[2,4,5],[7,1,6],[0,4,8]]. Create a program that calculates the sum of all even numbers. 
